@@ -1,0 +1,31 @@
+#navBar {
+  width: 100%;
+  display: flex;
+}
+
+#navBar .left {
+  width: auto;
+  justify-content: start;
+  padding: 1rem 0;
+}
+
+#navBar .right {
+  width: 100%;
+  justify-content: end;
+  text-align: right;
+  padding: 1rem 0;
+}
+
+#navBar .left a, #navBar .right a {
+  width: auto;
+
+  color: whitesmoke;
+  text-decoration: none;
+
+  padding: 1rem;
+  transition: all .3s;
+}
+
+#navBar .left a:hover, #navBar .right a:hover {
+  opacity: .6;
+}

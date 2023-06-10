@@ -1,0 +1,23 @@
+#footer {
+  width: 100%;
+  
+  padding: 1rem 0;
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#footer a {
+  color: whitesmoke;
+  transition: all .3s;
+}
+
+#footer a:hover {
+  opacity: .6;
+  text-decoration: underline dashed;
+}
