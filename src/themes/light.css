@@ -1,0 +1,16 @@
+.light {
+  background: whitesmoke;
+  color: #2e2f2f;
+}
+
+/* NavBar */
+.light #navBar .left a, #navBar .right a, #navBar .right button {
+  color: #2e2f2f;
+  background: transparent;
+}
+
+/* Footer */
+
+.light #footer a {
+  color: #2e2f2f;
+}
