@@ -6,26 +6,26 @@
 #navBar .left {
   width: auto;
   justify-content: start;
-  padding: 1rem 0;
 }
 
 #navBar .right {
   width: 100%;
   justify-content: end;
   text-align: right;
-  padding: 1rem 0;
 }
 
-#navBar .left a, #navBar .right a {
+#navBar .left a, #navBar .right a, #navBar .right button {
   width: auto;
+  display: inline-block;
 
-  color: whitesmoke;
   text-decoration: none;
+  border: none;
 
   padding: 1rem;
   transition: all .3s;
 }
 
-#navBar .left a:hover, #navBar .right a:hover {
+#navBar .left a:hover, #navBar .right a:hover, #navBar .right button:hover {
   opacity: .6;
+  cursor: pointer;
 }
