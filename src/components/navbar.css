@@ -1,6 +1,10 @@
 #navBar {
   width: 100%;
   display: flex;
+  position: fixed;
+  top: 0;
+
+  background: #2e2f2f;
 }
 
 #navBar .left {

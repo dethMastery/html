@@ -1,15 +1,28 @@
 body.light {
-  background: whitesmoke;
+  background: rgba(245, 245, 245, .8);
   color: #2e2f2f;
 }
 
 /* NavBar */
+.light #navBar {
+  background: rgba(245, 245, 245, .8);
+}
+
 .light #navBar .left a, .light #navBar .right a, .light #navBar .right button {
   color: #2e2f2f;
   background: transparent;
 }
 
 /* Footer */
+.light #footer {
+  background: rgba(245, 245, 245, .8);
+}
+
 .light #footer a {
   color: #2e2f2f;
+}
+
+/* Container */
+.light #container .headingContainer .overlay {
+  background: rgba(245, 245, 245, 0.6);
 }

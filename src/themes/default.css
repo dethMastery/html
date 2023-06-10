@@ -4,12 +4,25 @@ body {
 }
 
 /* NavBar */
+#navBar {
+  background: rgba(46, 47, 47, 0.8);
+}
+
 #navBar .left a, #navBar .right a, #navBar .right button {
   color: whitesmoke;
   background: transparent;
 }
 
 /* Footer */
+#footer {
+  background: rgba(46, 47, 47, 0.8);
+}
+
 #footer a {
   color: whitesmoke;
+}
+
+/* Container */
+#container .headingContainer .overlay {
+  background: rgba(46, 47, 47, 0.6);
 }
