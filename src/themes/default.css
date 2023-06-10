@@ -26,3 +26,11 @@ body {
 #container .headingContainer .overlay {
   background: rgba(46, 47, 47, 0.6);
 }
+
+#container .headingContainer .overlay .textContainer {
+  filter: drop-shadow(0 1rem .75rem rgba(245, 245, 245, .8));
+}
+
+#container .headingContainer .overlay .textContainer img {
+  filter: drop-shadow(0 .5rem .75rem rgba(245, 245, 245, .8));
+}
