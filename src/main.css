@@ -2,7 +2,12 @@
 
 /* Components */
 @import url(./components/navbar.css);
+@import url(./components/container.css);
 @import url(./components/footer.css);
+
+/* Theme */
+@import url(./themes/default.css);
+@import url(./themes/light.css);
 
 * {
   font-family: 'IBM Plex Sans Thai', sans-serif;
@@ -12,9 +17,4 @@ html,
 body {
   padding: 0;
   margin: 0;
-}
-
-body {
-  background: #2e2f2f;
-  color: whitesmoke;
 }
