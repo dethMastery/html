@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suphakit P. | dethz.one</title>
 
-    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/main.css" media="all">
   </head>
   <body>
     <div id="container">
       <div class="headingContainer">
         <div class="overlay">
-          <div>
+          <div class="overallContainer">
             <div class="textContainer">
-              <img src="https://avatars.githubusercontent.com/u/25049577?v=4" alt="Profile Image">
+              <img src="https://avatars.githubusercontent.com/u/25049577?v=4" alt="Profile Image" loading="lazy">
               <div class="text">
                 <h1 style="font-weight: 400;">
                   Suphakit P.
@@ -22,20 +22,35 @@
                   A passionate developer w/ musical skills 🎹🎤🎧
                 </h3>
               </div>
+              <a href="#contact">
+                Want a Contact?
+              </a>
             </div>
           </div>
         </div>
       </div>
 
       <div class="partingContainer">
+        <br>
         <div id="about">
-          <div id="school">
-
+          <div class="heading">
+            <div class="overlay">
+              <h1 style="font-weight: 400;">
+                About
+              </h1>
+            </div>
           </div>
-        </div>
-        <div id="techStats">
 
+          <div class="textContainer" id="aboutText" style="margin-top: 2rem;"></div>
+
+          <div id="school"></div>
+          <div id="techStats"></div>
         </div>
+        <div id="events">
+          <div id="joinedEvents"></div>
+          <div id="certificate"></div>
+        </div>
+        <div id="contact"></div>
       </div>
     </div>
 
@@ -49,16 +64,20 @@
         <a href="#about">
           About
         </a>
+        <a href="#contact">
+          Contact
+        </a>
         <button id="themeButton" onclick="mode()"></button>
       </div>
     </div>
 
     <div id="footer">
       <p>
-        &copy; 2023 <a href="https://suphakit.net">Suphakit P.</a> All Right Reserved.
+        &copy; 2023 <a href="https://suphakit.net" target="_blank">Suphakit P.</a> All Right Reserved.
       </p>
     </div>
 
     <script src="src/js/theme.js"></script>
+    <script src="src/js/contents.js"></script>
   </body>
 </html>
