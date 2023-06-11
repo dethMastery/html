@@ -40,10 +40,10 @@ body.light {
 }
 
 /* Container Card */
-#container .partingContainer .textContainer .cardContainer .card {
+.light #container .partingContainer .textContainer .cardContainer .card {
   filter: drop-shadow(.5rem .5rem .25rem #2e2f2f);
 }
 
-#container .partingContainer .textContainer .cardContainer .card:hover {
+.light #container .partingContainer .textContainer .cardContainer .card:hover {
   filter: drop-shadow(0 0 .25rem #2e2f2f);
 }
