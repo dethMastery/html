@@ -193,6 +193,8 @@
 #container .partingContainer .textContainer .techContainer {
   width: 80%;
   margin: 0 auto;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
 
   justify-content: center;
   text-align: center;
