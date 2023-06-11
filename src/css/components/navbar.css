@@ -18,7 +18,9 @@
   text-align: right;
 }
 
-#navBar .left a, #navBar .right a, #navBar .right button {
+#navBar .left a,
+#navBar .right a,
+#navBar .right button {
   width: auto;
   display: inline-block;
 
@@ -29,7 +31,16 @@
   transition: all .3s;
 }
 
-#navBar .left a:hover, #navBar .right a:hover, #navBar .right button:hover {
+#navBar .left a:hover,
+#navBar .right a:hover,
+#navBar .right button:hover {
   opacity: .6;
   cursor: pointer;
+}
+
+#navBar .left a.navLogo {
+  color: transparent;
+  background: url(../../images/dethzLogo.png) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
