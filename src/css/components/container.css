@@ -159,6 +159,7 @@
 #container .partingContainer .textContainer .cardContainer .card .cardBody > p {
   margin: 0;
   font-size: 1rem;
+  text-decoration: underline;
 }
 
 #container .partingContainer .textContainer .cardContainer .card .cardBody > h4:nth-child(1) {
@@ -167,6 +168,7 @@
 
 #container .partingContainer .textContainer .cardContainer .card .cardBody > h4 {
   margin: 0;
+  opacity: .6;
 }
 
 #container .partingContainer .textContainer .cardContainer .card .cardBody > h3 {
@@ -180,7 +182,7 @@
   margin-top: 1rem;
   padding: 1rem 0;
 
-  background-color: #a2a6a6;
+  background-color: #c8c8c8;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
