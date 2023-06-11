@@ -27,10 +27,11 @@
   text-align: center;
 }
 
-#container .headingContainer .overlay div {
+#container .headingContainer .overlay div.overallContainer {
   width: 100%;
   min-width: 18rem;
   max-width: 20rem;
+  animation: headingTransition 2s linear;
 }
 
 @layer img {
@@ -46,12 +47,12 @@
   #container .headingContainer .overlay .textContainer {
     background-color: whitesmoke;
     color: #2e2f2f;
-    padding: 1rem 0;
+    padding-top: 1rem;
     border-radius: 1rem;
   }
 
   #container .headingContainer .overlay .textContainer .text {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
   }
   
   #container .headingContainer .overlay .textContainer .text h1 {

@@ -1,0 +1,11 @@
+@keyframes headingTransition {
+  from {
+    margin-top: -5rem;
+    opacity: 0;
+  }
+
+  to {
+    margin-top: 0;
+    opacity: 1;
+  }
+}
