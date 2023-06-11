@@ -25,6 +25,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  backdrop-filter: blur(3px);
 }
 
 #container .headingContainer .overlay div.overallContainer {
