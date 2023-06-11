@@ -212,6 +212,7 @@ img;
 #container .partingContainer #joinedEvents .textContainer .cardContainer .card .cardBody h4,
 #container .partingContainer #certificates .textContainer .cardContainer .card .cardBody h4 {
   font-size: 18px;
+  opacity: 1;
 }
 
 #container .partingContainer #joinedEvents .textContainer .cardContainer .card .cardBody span,
@@ -250,3 +251,5 @@ img;
   transform: scale(.85, .85);
   opacity: .6;
 }
+
+/* Contacts */
