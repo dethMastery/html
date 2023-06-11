@@ -253,3 +253,36 @@ img;
 }
 
 /* Contacts */
+#container .partingContainer .textContainer .contactContainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  padding-top: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+#container .partingContainer .textContainer .contactContainer a {
+  width: 30px !important;
+  height: 30px !important;
+
+  display: block !important;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 50%;
+
+  background-color: whitesmoke;
+}
+
+#container .partingContainer .textContainer .contactContainer a:hover {
+  transform: scale(.85, .85);
+}
+
+#container .partingContainer .textContainer .contactContainer a .contactImg {
+  width: 100%;
+  height: 100%;
+}

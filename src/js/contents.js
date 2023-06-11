@@ -167,7 +167,39 @@ const data = {
         img: 'https://media.discordapp.net/attachments/967025462490591332/1107917398524297236/TESA-CERT.jpg'
       }
     ]
-  } 
+  },
+  contacts: [
+    {
+      img: 'src/images/icon/email.svg',
+      link: 'mailto:me@suphakit.net',
+      alt: 'mail',
+      bg: '#fe6e6f'
+    },
+    {
+      img: 'src/images/icon/fb.svg',
+      link: 'https://fb.com/detzz.in.th',
+      alt: 'fb',
+      bg: '#2f89fe'
+    },
+    {
+      img: 'src/images/icon/ig.svg',
+      link: 'https://instagram.com/detzz.th',
+      alt: 'ig',
+      bg: '#df298c'
+    },
+    {
+      img: 'src/images/icon/twitter.svg',
+      link: 'https://twitter.com/georgeKdeterk',
+      alt: 'tw',
+      bg: '#1c9aee'
+    },
+    {
+      img: 'src/images/icon/discord.svg',
+      link: 'https://discordid.netlify.app/?id=298415109359796234',
+      alt: 'dc',
+      bg: '#7289da'
+    }
+  ]
 }
 
 const about = document.querySelector('#aboutText')
@@ -265,6 +297,20 @@ data.event.certificates.forEach((data) => {
   }
 })
 
+const contacts = document.querySelector('#contacts')
+let contactForData = ''
+data.contacts.forEach((data) => {
+  const forData = `<a href="${data.link}" style="background: ${data.bg};">
+  <img src="${data.img}" alt="${data.alt}" class="contactImg">
+</a>`
+
+  if (contactForData == '') {
+    contactForData = forData
+  } else {
+    contactForData = contactForData + forData
+  }
+})
+
 about.innerHTML = data.about
 school.innerHTML = `<div class="textContainer">
   <h3 style="text-decoration: underline; font-weight: 300;">
@@ -299,4 +345,8 @@ certificates.innerHTML = `<div class="textContainer">
   <div class="cardContainer">
     ${certForData}
   </div>
+</div>`
+
+contacts.innerHTML = `<div class="contactContainer">
+  ${contactForData}
 </div>`
