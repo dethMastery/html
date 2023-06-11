@@ -90,7 +90,8 @@
 
 #container .partingContainer {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 4rem;
 }
 
 #container .partingContainer .heading {
@@ -125,6 +126,61 @@
   width: 100%;
 
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+
+  gap: 1rem;
+}
+
+#container .partingContainer .textContainer .cardContainer .card {
+  width: 18rem;
+
+  background: whitesmoke;
+  color: #2e2f2f;
+
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#container .partingContainer .textContainer .cardContainer .card * {
+  padding: 0 1rem;
+}
+
+#container .partingContainer .textContainer .cardContainer .card .cardBody {
+  width: auto;
+  height: 100%;
+  flex-grow: 1;
+}
+
+#container .partingContainer .textContainer .cardContainer .card .cardBody > p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+#container .partingContainer .textContainer .cardContainer .card .cardBody > h4:nth-child(1) {
+  padding-top: 1rem;
+}
+
+#container .partingContainer .textContainer .cardContainer .card .cardBody > h4 {
+  margin: 0;
+}
+
+#container .partingContainer .textContainer .cardContainer .card .cardBody > h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+#container .partingContainer .textContainer .cardContainer .card .cardFooter {
+  width: auto;
+
+  margin-top: 1rem;
+  padding: 1rem 0;
+
+  background-color: #a2a6a6;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
