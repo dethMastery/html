@@ -10,6 +10,7 @@
 #navBar .left {
   width: auto;
   justify-content: start;
+  padding: 1rem 0;
 }
 
 #navBar .right {
@@ -43,4 +44,6 @@
   background: url(../../images/dethzLogo.png) no-repeat;
   background-position: center;
   background-size: cover;
+  margin-left: 1rem;
+  padding: 0 1rem !important;
 }
