@@ -34,3 +34,7 @@ body.light {
 .light #container .headingContainer .overlay .textContainer img {
   filter: drop-shadow(0 .5rem .75rem #2e2f2f);
 }
+
+.light #container .partingContainer .heading .overlay {
+  background: rgba(245, 245, 245, 0.8);
+}

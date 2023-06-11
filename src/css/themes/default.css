@@ -34,3 +34,7 @@ body {
 #container .headingContainer .overlay .textContainer img {
   filter: drop-shadow(0 .5rem .75rem rgba(245, 245, 245, .8));
 }
+
+#container .partingContainer .heading .overlay {
+  background: rgba(46, 47, 47, 0.8);
+}
