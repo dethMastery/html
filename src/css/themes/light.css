@@ -8,7 +8,11 @@ body.light {
   background: rgba(245, 245, 245, .8);
 }
 
-.light #navBar .left a, .light #navBar .right a, .light #navBar .right button {
+.light #navBar a {
+  color: #2e2f2f;
+}
+
+.light #navBar .right button {
   color: #2e2f2f;
   background: transparent;
 }

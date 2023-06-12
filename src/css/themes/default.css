@@ -8,7 +8,11 @@ body {
   background: rgba(46, 47, 47, 0.8);
 }
 
-#navBar .left a, #navBar .right a, #navBar .right button {
+#navBar a {
+  color: whitesmoke;
+}
+
+#navBar .right button {
   color: whitesmoke;
   background: transparent;
 }

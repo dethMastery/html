@@ -14,7 +14,6 @@
 
 * {
   font-family: 'IBM Plex Sans Thai', sans-serif;
-  transition: all .3s;
 }
 
 html,
@@ -22,4 +21,9 @@ body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  transition: all .3s;
+}
+
+a, button, div {
+  transition: all .3s;
 }

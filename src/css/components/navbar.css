@@ -41,9 +41,9 @@
 
 #navBar .left a.navLogo {
   color: transparent;
-  background: url(../../images/dethzLogo.png) no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url(../../images/dethzLogo.png) no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
   margin-left: 1rem;
   padding: 0 1rem !important;
 }
